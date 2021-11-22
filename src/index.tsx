@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import PokeRoutes from "./pages/routes"
 import reportWebVitals from './reportWebVitals';
+import './assets/fonts/PokemonSolidNormal.ttf'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PokeRoutes />
   </React.StrictMode>,
   document.getElementById('root')
 );
